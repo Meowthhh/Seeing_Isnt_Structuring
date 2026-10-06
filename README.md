@@ -4,9 +4,9 @@
 
 The benchmark uses a Snakes & Ladders environment to isolate **seven multimodal failure modes** while using prerequisite calibration to avoid confusing basic perception errors with higher-level reasoning failures.
 
-<p align="center">
+<!-- <p align="center">
   <img src="Dataset/QC_contact_sheet.png" width="850" alt="SL-7 benchmark overview">
-</p>
+</p> -->
 
 ## Benchmark
 
@@ -25,9 +25,9 @@ SL-7 contains **170 queries**: **150 scored items** and **20 calibration items**
 ### Example: Visible vs. Hidden Structure
 
 <p align="center">
-  <img src="Dataset/dataset/images/B2_01_visible.png" width="45%" alt="Visible board">
+  <img src="B2_01_visible.png" width="45%" alt="Visible board">
   &nbsp;&nbsp;
-  <img src="Dataset/dataset/images/B2_01_hidden.png" width="45%" alt="Hidden board">
+  <img src="B2_01_hidden.png" width="45%" alt="Hidden board">
 </p>
 
 The model first demonstrates that it can read the visible target correctly. The corresponding hidden probe then tests whether it can reconstruct the same answer from the board's latent structure.
